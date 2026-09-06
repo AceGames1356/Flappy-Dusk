@@ -12,7 +12,7 @@ const GAME_FILE = path.join(__dirname, 'index.html');
 // client uses to unlock the in-game admin commands (skip pipe / immortal).
 // This only gates client-side single-player cheats — it has no effect on
 // other players or on the multiplayer relay.
-const ADMIN_USERNAMES = new Set(['ViLocity']);
+const ADMIN_USERNAMES = new Set(['ViLocity','RAINDEV123']);
 
 let db = { users: {} };
 
